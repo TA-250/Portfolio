@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* 全体の中央配置 */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* 水平中央 */
+    align-items: center; /* 垂直中央 */
+    background-color: #FBB161; /* 薄いオレンジ色背景 */
+    font-family: Arial, sans-serif;
+}
+
+/* コンテナ（フォーム全体） */
+.container {
+    background: #ffffff; /* 白背景 */
+    padding: 20px 30px;
+    border: 1px solid #ddd; /* 薄い枠線 */
+    border-radius: 8px; /* 角を少し丸く */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 影を少しだけ */
+    max-width: 300px;
+    width: 100%;
+}
+
+/* タイトル */
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* 入力フィールド */
+.user {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box; /* パディング込みで幅100% */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* 角を少し丸く */
+    font-size: 14px;
+}
+
+/* ログインボタン（標準的なスタイル） */
+.submit-btn {
+    background-color: #e0e0e0; /* 標準的なグレー背景 */
+    color: #333; /* 文字色は濃いグレー */
+    border: 1px solid #ccc; /* 標準的な枠線 */
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px; /* 角を少し丸く */
+    width: 100%;
+}
+
+.submit-btn:active {
+    background-color: #d5d5d5; /* クリック時に少し暗く */
+    border-color: #bbb;
+}
